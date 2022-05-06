@@ -1,6 +1,8 @@
 from random import randrange
-palpite = int(input('Digite um número: '))
+
 sorteado = randrange(11)
+palpite = int(input('Digite um número: '))
+
 
 while (sorteado != palpite):
     palpite = int(input('Errado. Digite novamente: '))
