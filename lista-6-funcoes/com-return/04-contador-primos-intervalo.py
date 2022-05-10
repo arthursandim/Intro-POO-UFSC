@@ -5,10 +5,9 @@ def ehPrimo(num):
             mult += 1
 
     if(mult == 0 and num != 1):
-        primo = True
+        return True
     else:
-        primo = False
-    return primo
+        return False
 
 def contagemPrimos(n1,n2):
     cont = 0
