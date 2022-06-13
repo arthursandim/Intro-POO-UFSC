@@ -28,4 +28,4 @@ for linha in range(0,len(matriz)):
 if operacao == 'S':
     print('Soma:', soma)
 else:
-    print('Média: {:.1f}'.format(soma/72))
+    print(f'Média: {soma/72:.1f}')
